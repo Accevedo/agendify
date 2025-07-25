@@ -23,8 +23,6 @@ def output(registroContacto, file='csv/data.csv'):
     if os.path.exists(file) and os.path.getsize(file) > 0:
         with open(file, mode='r', newline='') as f:
             lector = csv.DictReader(f)
-            for c in lector:
-                print(c)
             ids = [int(fila["id"]) for fila in lector]
             nuevo_id = max(ids) + 1 if ids else 1
     else:
