@@ -4,6 +4,7 @@ while True:
     print("\nAgendify")
     print("1. Agregar un nuevo contacto")
     print("2. Buscar contacto exisitente")
+    print("3. salir")
 
     opcion = input("Escoja una opción: ")
 
