@@ -9,17 +9,14 @@ Este es un proyecto de consola desarrollado en Python que permite **gestionar co
 
 ## 📁 Estructura del proyecto
 
-📦 proyecto_contactos
 ├── csv/
 │ └── data.csv # Archivo donde se almacenan los contactos
-├── core/
-│ └── writer.py # Función para registrar nuevos contactos (con ID incremental)
+├── core/│ 
+   └── writer.py # Función para registrar nuevos contactos (con ID incremental)
 ├── main.py # Archivo principal con las funciones del CRUD
 ├── README.md # Este archivo
 
-markdown
-Copy
-Edit
+
 
 ## ✅ Funcionalidades
 
